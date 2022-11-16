@@ -31,16 +31,16 @@ public class SendEmailController {
    private Multipart multipart;
 
    @RequestMapping(value="/reportemail",method=RequestMethod.GET)
-   public ModelAndView sendReportEmail(HttpServletRequest request, HttpServletResponse response) {
+   public ModelAndView sendReportEmail() {
 
       String fileName = "Estimate.jrxml";
-      String savePath = "C:\\물류프로젝트\\Logistics71_SpringBoot\\src\\main\\webapp\\resources\\iReportForm";
+      String savePath = "C:\\logi_solbin\\src\\main\\webapp\\resources\\iReportForm";
       
       String host = "smtp.gmail.com";
-      final String user = "shoolove36";
-      final String password = "wjddml4591@@";
+      final String user = "seoulit97";
+      final String password = "cdpeyvktblckahhm";
 
-      String to = "shoolove36@naver.com";
+      String to = "solarbean1078@naver.com";
 
       // Get the session object
       Properties props = new Properties();

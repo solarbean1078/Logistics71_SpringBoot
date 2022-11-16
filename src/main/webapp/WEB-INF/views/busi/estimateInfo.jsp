@@ -447,7 +447,7 @@
                 console.log(toDate.value);
             xhr.setRequestHeader('Accept', 'application/json');
             xhr.send();
-            xonreadystatechangehr.onreadystatechange = () => {
+            xhr.onreadystatechange = () => {
                 if (xhr.readyState == 4 && xhr.status == 200) {
                     let txt = xhr.responseText;
                     txt = JSON.parse(txt);

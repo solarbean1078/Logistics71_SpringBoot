@@ -130,8 +130,7 @@
             drawClassicChart();
         };
 
-
-        <%--------------황주영 그래프만들기 시작2022.09.29--------------%>
+        /////////////////////////////////////////////////////////////////////////////////
 
         let salesQuaChart;
 
@@ -184,7 +183,7 @@
 
                 titleTextStyle: {
                     fontName: 'Arial',
-                    bold: false,
+                    bold: true,
                     fontSize: 28,
                     color: '#494CA2'
                 },
